@@ -59,3 +59,5 @@ git checkout master
 git checkout -b sign-up
 
 
+// 数据库重置
+php artisan migrate:refresh
