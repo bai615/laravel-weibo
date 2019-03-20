@@ -12,3 +12,12 @@ php artisan help migrate
 
 git checkout master
 git merge static-pages
+
+git checkout master
+git checkout -b filling-layout-style
+
+yarn install --no-bin-links
+yarn add cross-env
+
+npm run dev
+npm run watch-poll
