@@ -23,3 +23,30 @@ npm run dev
 npm run watch-poll
 
 php artisan make:controller UsersController
+
+git checkout master
+git status
+
+git checkout .
+
+rm -f public/mix-manifest.json
+
+git merge filling-layout-style
+
+git push
+
+// 删除一个分支
+git branch -d filling-layout-style
+
+
+// 数据库迁移
+php artisan migrate
+
+// 数据库回滚
+php artisan migrate:rollback
+
+mkdir app/Models
+mv app/User.php app/Models/User.php
+
+
+
