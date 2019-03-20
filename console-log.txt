@@ -21,3 +21,5 @@ yarn add cross-env
 
 npm run dev
 npm run watch-poll
+
+php artisan make:controller UsersController
