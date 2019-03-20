@@ -48,5 +48,9 @@ php artisan migrate:rollback
 mkdir app/Models
 mv app/User.php app/Models/User.php
 
+php artisan tinker
+
+git checkout master
+git merge modeling-users
 
 
