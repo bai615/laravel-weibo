@@ -68,3 +68,5 @@ composer require "overtrue/laravel-lang:~3.0"
 
 git checkout master
 git merge sign-up
+
+composer dump-autoload
