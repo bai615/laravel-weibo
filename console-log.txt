@@ -61,3 +61,6 @@ git checkout -b sign-up
 
 // 数据库重置
 php artisan migrate:refresh
+
+// 语音包
+composer require "overtrue/laravel-lang:~3.0"
