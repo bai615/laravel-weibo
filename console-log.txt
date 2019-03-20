@@ -79,3 +79,13 @@ php artisan route:list
 
 php artisan make:policy UserPolicy
 
+php artisan make:seeder UsersTableSeeder
+
+php artisan migrate:refresh
+php artisan db:seed
+
+// 单独指定数据填充
+php artisan db:seed --class=UsersTableSeeder
+
+// 数据库重置并填充
+php artisan migrate:refresh --seed
