@@ -75,3 +75,7 @@ composer dump-autoload
 php artisan make:controller SessionsController
 
 php artisan route:list
+
+
+php artisan make:policy UserPolicy
+
