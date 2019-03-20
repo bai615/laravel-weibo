@@ -5,3 +5,10 @@ php artisan key:generate
 git checkout -b static-pages
 
 php artisan make:controller StaticPagesController
+
+php artisan list
+
+php artisan help migrate
+
+git checkout master
+git merge static-pages
