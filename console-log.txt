@@ -110,3 +110,10 @@ php artisan make:migration create_statuses_table --create="statuses"
 php artisan migrate
 
 php artisan make:model Models/Status
+
+
+php artisan make:factory StatusFactory
+
+php artisan make:seeder StatusesTableSeeder
+
+php artisan migrate:refresh --seed
