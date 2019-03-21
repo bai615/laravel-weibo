@@ -127,3 +127,8 @@ php artisan make:policy StatusPolicy
 php artisan make:migration create_followers_table --create="followers"
 
 php artisan migrate
+
+
+php artisan make:seeder FollowersTableSeeder
+
+php artisan migrate:refresh --seed
